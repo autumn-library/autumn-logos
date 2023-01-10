@@ -1,0 +1,14 @@
+{
+    "logos": {
+      "logger": {
+        "rootLogger": "DEBUG",
+        "my.logger.DEBUG": "DEBUG",
+        "my.logger.INFO": "INFO",
+        "my.logger.WARN": "WARN",
+        "my.logger.ERROR": "ERROR",
+        "my.logger.CRITICALERROR": "CRITICALERROR",
+        "my.logger.DISABLE": "DISABLE",
+        "my.logger.DEFAULT": "DEFAULT"
+     } 
+    } 
+  }
