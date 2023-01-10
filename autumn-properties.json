@@ -1,7 +1,7 @@
 {
     "logos": {
       "logger": {
-        "rootLogger": "DEBUG",
+        "rootLogger": "WARN",
         "my.logger.DEBUG": "DEBUG",
         "my.logger.INFO": "INFO",
         "my.logger.WARN": "WARN",
