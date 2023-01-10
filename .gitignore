@@ -3,3 +3,4 @@
 *.ospx
 out/
 oscript_modules/
+tests/log/

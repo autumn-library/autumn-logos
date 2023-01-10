@@ -8,7 +8,20 @@
         "my.logger.ERROR": "ERROR",
         "my.logger.CRITICALERROR": "CRITICALERROR",
         "my.logger.DISABLE": "DISABLE",
-        "my.logger.DEFAULT": "DEFAULT"
-     } 
+        "my.logger.DEFAULT": "DEFAULT",
+        "my.logger.fileappender": "INFO",
+        "my.logger.consoleappender": "INFO"
+     },
+     "appender": {
+         "my.logger.fileappender": {
+             "type": "ВыводЛогаВФайл",
+             "level": "DEBUG",
+             "file": "tests/log/fileappender.log"
+         },
+         "my.logger.consoleappender": {
+            "type": "ВыводЛогаВКонсоль",
+            "level": "DEBUG"
+        }
+     }
     } 
   }
