@@ -1,24 +1,24 @@
 {
     "logos": {
       "logger": {
-        "rootLogger": "WARN",
-        "my.logger.DEBUG": "DEBUG",
-        "my.logger.INFO": "INFO",
-        "my.logger.WARN": "WARN",
-        "my.logger.ERROR": "ERROR",
-        "my.logger.CRITICALERROR": "CRITICALERROR",
-        "my.logger.DISABLE": "DISABLE",
-        "my.logger.DEFAULT": "DEFAULT",
-        "my.logger.fileappender": "INFO",
-        "my.logger.consoleappender": "INFO"
+        "rootLogger": {"level":"WARN"},
+        "my.logger.DEBUG": {"level":"DEBUG"},
+        "my.logger.INFO": {"level":"INFO"},
+        "my.logger.WARN": {"level":"WARN"},
+        "my.logger.ERROR": {"level":"ERROR"},
+        "my.logger.CRITICALERROR": {"level":"CRITICALERROR"},
+        "my.logger.DISABLE": {"level":"DISABLE"},
+        "my.logger.DEFAULT": {"level":"DEFAULT"},
+        "my.logger.fileappender": {"level":"INFO", "appenders": "debugfile"},
+        "my.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"}
      },
      "appender": {
-         "my.logger.fileappender": {
+         "debugfile": {
              "type": "ВыводЛогаВФайл",
              "level": "DEBUG",
              "file": "tests/log/fileappender.log"
          },
-         "my.logger.consoleappender": {
+         "consoledebug": {
             "type": "ВыводЛогаВКонсоль",
             "level": "DEBUG"
         }
