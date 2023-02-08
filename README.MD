@@ -75,8 +75,8 @@
     "logos": {
       "logger": { // Описание уровней логов, и ссылки на применяемые аппендеры.
         "rootLogger": {"level":"WARN"},
-        "my.logger.DEBUG": {"level":"DEBUG"},
-        "my.logger.INFO": {"level":"INFO"},
+        "my.logger.DEBUG": "DEBUG", // Уровень можно задать как строкой, так и объектом с ключем level
+        "my.logger.INFO": "INFO",
         "my.logger.WARN": {"level":"WARN"},
         "my.logger.ERROR": {"level":"ERROR"},
         "my.logger.CRITICALERROR": {"level":"CRITICALERROR"},
