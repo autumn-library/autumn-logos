@@ -1,10 +1,10 @@
 {
     "logos": {
       "logger": {
-        "rootLogger": {"level":"WARN"},
-        "my.logger.DEBUG": {"level":"DEBUG"},
+        "rootLogger": "WARN",
+        "my.logger.DEBUG": "DEBuG",
         "my.logger.INFO": {"level":"INFO"},
-        "my.logger.WARN": {"level":"WARN"},
+        "my.logger.WARN": {"level":"WArN"},
         "my.logger.ERROR": {"level":"ERROR"},
         "my.logger.CRITICALERROR": {"level":"CRITICALERROR"},
         "my.logger.DISABLE": {"level":"DISABLE"},
