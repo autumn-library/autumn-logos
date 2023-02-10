@@ -82,8 +82,8 @@
         "my.logger.CRITICALERROR": {"level":"CRITICALERROR"},
         "my.logger.DISABLE": {"level":"DISABLE"},
         "my.logger.DEFAULT": {"level":"DEFAULT"},
-        "my.logger.fileappender": {"level":"DEBUG", "appenders": "debugfile"},
-        "my.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"}
+        "my.logger.fileappender": {"level":"DEBUG", "appenders": ["debugfile", "consoledebug"]}, // Аппендеры можно задать массиом
+        "my.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"}    // Или строкой через ","
      },
      "appender": { // Настройки аппендеров
          "debugfile": {

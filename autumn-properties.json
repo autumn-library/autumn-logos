@@ -9,7 +9,7 @@
         "my.logger.CRITICALERROR": {"level":"CRITICALERROR"},
         "my.logger.DISABLE": {"level":"DISABLE"},
         "my.logger.DEFAULT": {"level":"DEFAULT"},
-        "my.logger.fileappender": {"level":"DEBUG", "appenders": "debugfile"},
+        "my.logger.fileappender": {"level":"DEBUG", "appenders": ["debugfile", "consoledebug"]},
         "my.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"}
      },
      "appender": {
