@@ -4,7 +4,7 @@
         "rootLogger": "WARN",
         "my.logger.DEBUG": "DEBuG",
         "my.logger.INFO": {"level":"INFO"},
-        "my.logger.stringlayout": {"level":"INFO", "stringlayout":"%ДатаВремя%:%Уровень% - %ИмяЛога% - %Сообщение%"},
+        "my.logger.stringlayout": {"level":"INFO", "stringlayout":"%ДатаВремя%:%Уровень% - %Сообщение%"},
         "my.logger.classlayout": {"level":"INFO", "classlayout":"МойКлассРаскладки"},
         "my.logger.standartlayout": {"level":"INFO", "classlayout":"ОсновнаяРаскладкаСообщения"},
         "my.logger.jsonlayout": {"level":"INFO", "classlayout":"JSONРаскладкаСообщения"},
