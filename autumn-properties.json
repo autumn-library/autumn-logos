@@ -14,7 +14,8 @@
         "my.logger.DISABLE": {"level":"DISABLE"},
         "my.logger.DEFAULT": {"level":"DEFAULT"},
         "my.logger.fileappender": {"level":"DEBUG", "appenders": ["debugfile", "consoledebug"]},
-        "my.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"}
+        "my.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"},
+        "my.logger.smartappender": {"level":"INFO", "appenders": "smartAppender"}
      },
      "appender": {
          "debugfile": {
@@ -25,7 +26,12 @@
          "consoledebug": {
             "type": "ВыводЛогаВКонсоль",
             "level": "DEBUG"
-        }
+        },
+        "smartAppender": {
+          "type": "ХитрыйАппендер",
+          "level": "DEBUG",
+          "suffix": "1"
+      }
      }
     } 
   }
