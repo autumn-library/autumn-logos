@@ -1,4 +1,4 @@
-# autumn-logos - Компонент ОСени, для внедрения логгера. 
+# autumn-logos
 
 Компонент [ОСени](https://github.com/autumn-library/autumn) для внедрения [логгера](https://github.com/oscript-library/logos). Удобная аннотация - обертка для получения объекта логгера.
 
