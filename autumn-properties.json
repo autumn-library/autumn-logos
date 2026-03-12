@@ -15,7 +15,8 @@
         "my.logger.DEFAULT": {"level":"DEFAULT"},
         "my.logger.fileappender": {"level":"DEBUG", "appenders": ["debugfile", "consoledebug"]},
         "my.logger.consoleappender": {"level":"INFO", "appenders": "debugfile, consoledebug"},
-        "my.logger.smartappender": {"level":"INFO", "appenders": "smartAppender"}
+        "my.logger.smartappender": {"level":"INFO", "appenders": "smartAppender"},
+        "my.logger.smartappender.childstrlevel": "INFO"
      },
      "appender": {
          "debugfile": {
