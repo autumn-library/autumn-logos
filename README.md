@@ -1,5 +1,7 @@
 # autumn-logos - Компонент ОСени, для внедрения логгера. 
 
+[![Used by](https://litrosbadges.ru/package/autumn-logos.svg)](https://litrosbadges.ru/package/autumn-logos)
+
 Компонент [ОСени](https://github.com/nixel2007/autumn), для внедрения [логгера](https://github.com/oscript-library/logos). Удобная аннотация - обертка для получения объекта логгера.
 
 ## Подключение
