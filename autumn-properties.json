@@ -1,7 +1,7 @@
 {
     "logos": {
       "logger": {
-        "rootLogger": "WARN",
+        "rootLogger": {"level":"WARN", "appenders": "rootSmartAppender"},
         "my.logger.DEBUG": "DEBuG",
         "my.logger.INFO": {"level":"INFO"},
         "my.logger.stringlayout": {"level":"INFO", "strinGlayout":"%ДатаВремя%:%Уровень% - %Сообщение%"},
@@ -30,6 +30,11 @@
         },
         "smartAppender": {
           "type": "ХитрыйАппендер",
+          "level": "DEBUG",
+          "suffix": "1"
+      },
+        "rootSmartAppender": {
+          "type": "ХитрыйАппендерRoot",
           "level": "DEBUG",
           "suffix": "1"
       }
